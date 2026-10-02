@@ -1,0 +1,132 @@
+/* Paleta de colores Verde Militar */
+:root {
+  --bg-main: #f3eae1;
+  --bg-card: #ebdcd0;
+  --text-primary: #1e281b;
+  --text-muted: #4e5849;
+  --green-accent: #4b5320;
+  --green-hover: #373e17;
+  --green-glow: rgba(75, 83, 32, 0.2);
+  --font-code: var(--bs-font-monospace);
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.font-code {
+  font-family: var(--font-code);
+}
+
+/* Espacio superior para compensar el header fijo */
+.hero-section {
+  padding-top: 110px;
+  padding-bottom: 3rem;
+}
+
+/* Navegación */
+.bg-dark-glass {
+  background-color: rgba(243, 234, 225, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(30, 40, 27, 0.15);
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+  color: var(--text-primary) !important;
+}
+
+.navbar-dark .nav-link:hover {
+  color: var(--green-accent) !important;
+}
+
+.navbar-toggler {
+  border-color: var(--green-accent) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2875, 83, 32, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Utilidades y Componentes */
+.bg-darker {
+  background-color: var(--bg-card);
+}
+
+.text-green {
+  color: var(--green-accent) !important;
+}
+
+.bg-green-subtle {
+  background-color: rgba(75, 83, 32, 0.15) !important;
+}
+
+.border-green-subtle {
+  border-color: rgba(75, 83, 32, 0.3) !important;
+}
+
+.btn-green {
+  background-color: var(--green-accent);
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-green:hover {
+  background-color: var(--green-hover);
+  color: #fff;
+  box-shadow: 0 4px 15px var(--green-glow);
+}
+
+.btn-outline-green {
+  border-color: var(--green-accent);
+  color: var(--green-accent);
+}
+
+.btn-outline-green:hover {
+  background-color: var(--green-accent);
+  color: #fff;
+}
+
+.profile-img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border: 2px solid var(--green-accent);
+  box-shadow: 0 4px 12px var(--green-glow);
+}
+
+.skill-card {
+  background-color: var(--bg-main);
+  border: 1px solid rgba(30, 40, 27, 0.2);
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  border-color: var(--green-accent);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px var(--green-glow);
+}
+
+.project-card {
+  background-color: var(--bg-card) !important;
+  border: 1px solid rgba(30, 40, 27, 0.15) !important;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--green-accent) !important;
+  box-shadow: 0 10px 25px var(--green-glow) !important;
+}
+
+footer {
+  background-color: var(--bg-card) !important;
+  border-top-color: rgba(30, 40, 27, 0.15) !important;
+}
