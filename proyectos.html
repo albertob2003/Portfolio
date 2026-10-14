@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberto | Java Full Stack Developer</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="styleshome.css">
+</head>
+<body> 
+  <!-- Navegación Fija Responsiva -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark-glass">
+    <div class="container">
+      <a class="navbar-brand fw-bold font-code" href="#">Alberto</a>
+      
+      <!-- Menú hamburguesa (visible solo en móviles/tablets) -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Enlaces visibles directamente en PC y colapsables en móviles -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-2 gap-lg-3 align-items-lg-center pt-3 pt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Principal / Espacio superior por la barra fija -->
+  <main style="margin-top: 80px;">
+
+    <!-- SECCIÓN DE PROYECTOS -->
+    <section id="proyectos" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-5">Mis Proyectos</h2>
+          <p class="text-muted">Una muestra del trabajo colaborativo, desarrollo ágil y soluciones técnicas que he construido.</p>
+        </div>
+
+        <div class="row g-4">
+          
+          <!-- Proyecto 1: Hackathon | Landing Page -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0">
+              <!-- Espacio para la imagen del proyecto -->
+              <img src="projectsimages/landing_page.jpg" class="card-img-top" alt="Hackathon Landing Page Deporte">
+              <div class="card-body d-flex flex-column">
+                <span class="badge bg-primary mb-2 align-self-start">Septiembre 2026</span>
+                <h3 class="card-title h5 fw-bold">Hackathon | Landing Page Deportiva</h3>
+                <p class="card-text text-muted small">
+                  En un intenso reto de siete horas en equipo, logré conceptualizar, programar y estructurar la presentación de una landing page para una empresa ficticia de venta de artículos deportivos.
+                </p>
+                <ul class="list-unstyled text-muted small mb-4">
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Control de versiones colaborativo con GitHub.</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Diseño y maquetación responsiva con HTML5, CSS y JavaScript.</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Adaptable a distintos dispositivos y layouts.</li>
+                </ul>
+                <!-- Botón de GitHub -->
+                <div class="mt-auto">
+                  <a href="https://github.com/Ernesto20012009/HACKATHON" target="_blank" class="btn btn-outline-dark btn-sm w-100">
+                    <i class="bi bi-github me-1"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 2: Hackathon | Agenda Telefónica -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0">
+              <!-- Espacio para la imagen del proyecto -->
+              <img src="projectsimages/agenda.jpg" class="card-img-top" alt="Hackathon Agenda Telefónica Java">
+              <div class="card-body d-flex flex-column">
+                <span class="badge bg-success mb-2 align-self-start">Octubre 2026</span>
+                <h3 class="card-title h5 fw-bold">Hackathon | Agenda Telefónica (POO)</h3>
+                <p class="card-text text-muted small">
+                  Desarrollado en un sprint de siete horas junto a un equipo de cinco personas, construimos una robusta aplicación de consola en Java aplicando los pilares de la Programación Orientada a Objetos.
+                </p>
+                <ul class="list-unstyled text-muted small mb-4">
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Implementación completa de módulos CRUD en Java.</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Gestión eficiente de colecciones de datos.</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Lógica para altas, bajas, modificaciones y consultas de contactos.</li>
+                </ul>
+                <div class="mt-auto">
+                  <a href="https://github.com/albertob2003/hackaton2/tree/main" target="_blank" class="btn btn-outline-dark btn-sm w-100">
+                    <i class="bi bi-github me-1"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Proyecto 3: Red Social Ludos -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm border-0">
+              <!-- Espacio para la imagen del proyecto -->
+              <img src="projectsimages/ludus.jpg" class="card-img-top" alt="Red Social Ludus Videojuegos">
+              <div class="card-body d-flex flex-column">
+                <span class="badge bg-warning text-dark mb-2 align-self-start">Septiembre - Octubre 2026</span>
+                <h3 class="card-title h5 fw-bold">Red Social | Ludus</h3>
+                <p class="card-text text-muted small">
+                  Plataforma interactiva diseñada en equipo para conectar a la comunidad de entusiastas de los videojuegos, permitiendo compartir reseñas y experiencias de juego.
+                </p>
+                <ul class="list-unstyled text-muted small mb-4">
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Wireframes y prototipado visual estructurados en Figma.</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Control de versiones continuo mediante Git y GitHub.</li>
+                  <li><i class="bi bi-check-circle-fill text-success me-2"></i>Desarrollo frontend fluido optimizado para equipos de escritorio y móviles.</li>
+                </ul>
+                <!-- Botón de GitHub -->
+                <div class="mt-auto">
+                  <a href="https://github.com/LUDUSS/Proyecto-integrador" target="_blank" class="btn btn-outline-dark btn-sm w-100">
+                    <i class="bi bi-github me-1"></i> Ver en GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+   <!-- Footer / Contacto -->
+  <footer id="contacto" class="py-4 bg-darker border-top border-green-subtle text-center text-muted">
+    <div class="container">
+      <p class="mb-2">Diseñado y desarrollado por Alberto &copy; 2026</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="https://github.com/albertob2003" class="text-dark fs-5"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/alberto-beníteza/?isSelfProfile=true" class="text-dark fs-5"><i class="bi bi-linkedin"></i></a>
+        <a href="mailto:correo@ejemplo.com" class="text-dark fs-5"><i class="bi bi-envelope-fill"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
